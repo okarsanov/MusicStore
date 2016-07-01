@@ -1,0 +1,12 @@
+﻿@{
+    ViewBag.Title = "Контакты";
+    Layout = "~/Views/Shared/_BasicLayout.cshtml";
+}
+
+<h2>Страница в разработке...</h2>
+
+@section Basket {
+    <a href="#"><img id="idBasket" src="~/Content/images/basket.png"/></a>
+                У вас @ViewBag.Count заказов <br /> на сумму @ViewBag.Sum р. <br />
+                <a href="#">Перейти в корзину</a>
+    }

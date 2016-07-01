@@ -1,0 +1,14 @@
+﻿@{
+    Layout = "~/Views/Shared/_BasicLayout.cshtml";
+    ViewBag.Title = "SomeMethod";
+}
+
+<h2>SomeMethod</h2>
+
+
+
+@section Basket {
+    <a href="#"><img id="idBasket" src="~/Content/images/basket.png"/></a>
+                У вас @ViewBag.Count заказов <br /> на сумму @ViewBag.Sum р. <br />
+                <a href="#">Перейти в корзину</a>
+    }

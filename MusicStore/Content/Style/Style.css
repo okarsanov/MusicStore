@@ -1,0 +1,279 @@
+﻿div
+{
+    /*border: 1px solid #4cff00;*/
+    /*float: left;*/
+}
+body {
+    background: url("../images/bg-main.png");
+    color: #aedcd2;
+    margin: 0 7% 0 7%;
+    /*width: 1024px;*/
+    /*font-family: Verdana;*/
+
+}
+a
+{
+    text-decoration: none;
+    color: grey;
+    font-family: Verdana;
+    transition-duration: 500ms;
+}
+a:hover
+{
+    text-decoration: underline;
+    color: orange;
+}
+
+header, footer
+{
+    /*border: 1px solid #ff6a00;*/
+}
+header, nav, section, aside, footer
+{
+    display: block;
+}
+#headerInner
+{
+    height: 150px;
+    margin-bottom: 10px;
+    float:  left;
+    box-sizing: border-box;
+}
+#footerInner
+{
+    height: 100px;
+    margin-top: 10px;
+    float: left;
+    width: 100%;
+    box-sizing: border-box;
+    text-align: center;
+    font-family: Verdana;
+}
+hr
+{
+    color: grey;
+    margin-bottom: 10px;
+}
+/*#footerInner span
+{
+    
+    margin-left: 40%;
+}
+#copyright
+{
+    
+}*/
+
+#middleBlock
+{
+    float: left;
+    width: 100%;
+    min-height: 100%;
+    /*box-sizing: border-box;*/
+    background: linear-gradient(to right, rgb(41,41,41), tranparent 10%);
+}
+#content
+{
+    min-height: 100%;
+	/*border: 1px solid #4cff00;*/
+    margin-left: 10px;
+    float: left;
+    width: 79%;
+    height: 700px;
+    box-sizing: border-box;
+    background: linear-gradient(90deg, #242424, transparent 150%);
+    box-shadow: inset 5px 5px 5px #808080, 5px 5px 5px #000000;
+    border-radius: 10px;
+    padding: 0px 15px;
+}
+
+#colRight
+{
+    border: 1px solid #ff6a00;
+    position: absolute;
+}
+.postBox
+{
+    border: 1px solid #4cff00;
+    position: absolute;
+}
+
+#logo
+{
+    width: 135px;
+    height: 80px;
+	float: left;
+    box-sizing: border-box;
+}
+#spacer
+{
+	width: 59%;
+    height: 70px;
+	float: left;
+    margin-left: 10px;
+    padding: 25px 0px 10px 25%;
+    box-sizing: border-box;
+    background: linear-gradient(90deg, #242424, #242424, transparent 150%);
+    box-shadow: inset 5px 5px 5px #808080, 5px 5px 5px #000000;
+    border-radius: 10px;
+}
+
+#basket
+{
+    width: 255px;
+    height: 80px;
+    /*border: 1px solid #fff;*/
+	float: left;
+    box-sizing: border-box;
+    padding-top: 5px;
+    margin-left: 10px;
+}
+/*#basket a
+{
+    text-decoration: none;
+    color: grey;
+    font-family: Verdana;
+}*/
+#idBasket
+{
+    float: left;
+    margin-right: 10px;
+    height: 65px;
+    width: 65px;
+}
+
+/*----------------------Top Menu---------------------------*/
+#topMenu
+{
+    /*border: 1px solid #0ff;*/
+    float: left;
+    width: 75%;
+    height: 65px;
+    background-color: #242424;
+    margin: 0;
+    border-radius: 10px 0 0 10px;
+}
+#topMenu ul
+{
+    list-style: none;
+    display: table;
+    height: 70px;
+    margin: 0;
+    padding: 0;
+}
+#topMenu ul li
+{
+    position: relative;
+    display: inline;
+    padding: 0;
+}
+#topMenu ul li a
+{
+    font-size: 20px;
+    display: block;
+    float: left;
+    text-transform: initial;
+    text-decoration: none;
+    /*font-family: Verdana;*/
+    text-align:center;
+    line-height: 65px;
+    padding: 0 20px;
+    color: #fff;
+    border-radius: 10px;
+    width: 100px;
+    transition-duration: 300ms;
+    border-left: 1px solid #808080;
+    background: linear-gradient(to right, #808080, #242424);
+}
+#topMenu ul li a:hover
+{
+    background-color: brown;
+    box-shadow: 0px 0px 5px 7px #ff6a00, inset 0px 0px 5px #808080;
+    background: linear-gradient(to right, rgba(245, 41, 41, 1), rgba(249, 101, 38, 1));
+    text-shadow: -2px 0px 3px #000;
+    /*border: none;*/
+}
+
+/*----------------------Search Form---------------------------*/
+#searchForm
+{
+    float: left;
+    height: 65px;
+    width: 250px;
+    /*background-color: #242424;*/
+    background: linear-gradient(120deg, #242424, #242424, #242424, transparent 100%);
+    /*margin: 0;*/
+}
+#searchText
+{
+    margin-top: 15px;
+    padding: 10px 5px;
+    width: 150px;
+}
+#searchBtn
+{
+    width: 70px;
+    height: 45px;
+    border-radius: 5px;
+    margin-left: 10px;
+    background: linear-gradient(to bottom right, rgb(5, 0, 230), rgb(255, 255, 255));
+    /*text-indent: -1000em;*/
+    font-family: Verdana;
+    
+}
+
+/*----------------------Left Menu---------------------------*/
+#leftMenu
+{
+    /*border: 1px solid #ff6a00;*/ 
+	height: 100%;
+	width: 200px;
+    float: left;
+    box-sizing: border-box;
+}
+#leftMenu ul
+{
+    list-style: none;
+    display: table;
+    height: 70px;
+    margin: 0;
+    padding: 0;
+    /*background-color: wheat;*/
+}
+#leftMenu ul li
+{
+    position: relative;
+    display: inline;
+    padding: 0;
+
+}
+#leftMenu ul li a
+{
+    font-size: 20px;
+    /*display: block;*/
+    float: left;
+    /*text-transform: initial;*/
+    text-decoration: none;
+    /*font-family: Verdana;*/
+    line-height: 65px;
+    padding: 0 28px;
+    color: #fff;
+    border-radius: 10px;
+    background-color: grey;
+    width: 142px;
+    margin-bottom: 10px;
+    box-shadow: inset -5px -5px 20px #000, inset 5px 5px 5px #fff, 1px 1px 5px #000;
+    transition-duration: 1s;
+}
+#leftMenu ul li a:hover
+{
+    background-color: grey;
+    box-shadow: inset -5px -5px 20px #fff, inset 5px 5px 10px #000, 1px 1px 5px #fff;
+    text-shadow: 3px 2px 3px #000;
+}
+
+/*----------------------Sub Menu---------------------------*/
+#subMenu 
+{
+
+}
